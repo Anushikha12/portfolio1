@@ -1,0 +1,203 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: beige;
+    height:70px;
+}
+a {
+    text-decoration: none;
+    color:brown;
+}
+.navbar {
+    margin:30px;
+}
+.left-nav {
+    color:brown;
+    font-weight: bolder;
+    padding-top:15px;
+    font-size:32px;
+}
+.right-nav {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-between;
+    margin-right: 20px;
+}
+.list {
+    margin-right: 45px;
+    font-size:22px;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: brown;
+    align-items: center;
+    height:550px;
+}
+#first {
+    color:white;
+     font-size: 40px;
+}
+#second {
+    color:white;
+    font-weight: bolder;
+    font-size: 42px;
+    margin-top:10px;
+}
+.middle {
+    margin:30px 0;
+    font-size:20px;
+    color:white;
+}
+#btn-1 ,#btn-2 {
+    width:150px;
+    height:45px;
+    background-color:beige;
+    border-radius: 10px;
+    cursor: pointer;
+    margin:0 10px 0 0;
+    font-size:20px;
+}
+#about {
+    display: flex;
+    justify-content: space-between;
+    /* height:550px; */
+}
+.right-about {
+    width:50%;
+    margin:0 0 0 20px;
+}
+#about-me {
+    font-size: 30px;
+    font-weight: bolder;
+}
+#para1,#para2 {
+    font-size: 20px;
+}
+.tech {
+    width:90%;
+    font-size: 20px;
+
+}
+.tech-title {
+    color:grey;
+}
+.icons {
+    display:flex;
+    justify-content: space-between;
+}
+#projects,.people,#contact,.navbar,.header,#about{
+    margin: 30px auto;
+    width:1350px;
+}
+#project {
+    text-align:center;
+    font-size: 42px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-link {
+    width:350px;
+    height:250px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px gray;
+    margin:15px;
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width:30%;
+}
+#name {
+    font-size:22px;
+    font-weight: 800;
+}
+#company {
+    font-size:20px;
+    color:gray;
+}
+.content {
+    font-size: 18px;
+}
+.user {
+   width:160px;
+}
+.container2 {
+    display: flex;
+    height:600px;
+}
+.left-form {
+    width:50%;
+    background-color: beige;
+}
+.left-form-content {
+    margin:70px 30px;
+}
+.right-form {
+    width:50%;
+    background-color: lightpink;
+}
+.email,.phone,.location {
+    display: flex;
+    /* justify-content: space-between; */
+    /* width:40%; */
+}
+.right-form-content {
+    margin:70px 30px;
+}
+.connect {
+    font-weight: 800;
+    color:brown;
+    font-size: 32px;
+}
+.star {
+    color:red;
+}
+input {
+    width:400px;
+    border-radius: 6px;
+    height:30px;
+    border:none;
+}
+textarea {
+    width:400px;
+    border-radius: 6px;
+    height:60px;
+    border:none;
+}
+#btn-last {
+    background-color: brown;
+    color:white;
+    width:200px;
+    height:50px;
+    border-radius: 10px;
+    font-size:20px;
+    margin:20px 0;
+}
+.form-para {
+    font-size: 19px;
+}
+.contact-para {
+    font-size: 18px;
+    color:gray;
+    margin-left:20px;
+}
+.footer {
+    margin:auto;
+    width:1200px;
+    background-color:beige;
+    font-size:28px;
+    text-align: center;
+    height:90px;
+}
+#footer-text {
+    padding:20px 0;
+}
